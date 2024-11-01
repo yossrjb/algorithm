@@ -1,0 +1,35 @@
+start
+var
+i,j,p:integer 
+
+write("give me a sentence")
+read(ch)
+k:=ch+"."
+n:=0
+w:=1
+v:=0
+l:="AaUuOoYyEeIi"
+for p from 0 to (length.k)-1 step 1 do
+     n=n+1
+end_for
+     
+
+for i from 0 to n-2 step 1 do
+    if k[i]==" " then
+          w=w+1
+    else 
+        for j from 0 to 11 step 1 do
+              if k[i]==l[j]do
+                  v=v+1
+               end_if
+          end_for
+     end_if
+end_for
+write("the length of the sentence is;n)
+write("the number of words is";w)
+write("the number of vowels is";v)
+end
+     
+    
+
+          
